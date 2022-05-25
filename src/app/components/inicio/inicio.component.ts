@@ -3,7 +3,7 @@ import { fundido } from '../animation';
 
 @Component({
   selector: 'inicio',
-  templateUrl: './inicio.component.html',
+  templateUrl: './inicio.component.html', 
   styleUrls: ['./inicio.component.css'],
   animations: [fundido]
 })
