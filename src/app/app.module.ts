@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { routing, appRoutingProviders } from './app.routing';
 //import { HttpModule } from '@angular/http';
+import { routing, appRoutingProviders } from './app.routing';
+
+//nuevo modulo
 
 
 //Componentes

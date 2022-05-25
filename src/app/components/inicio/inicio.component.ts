@@ -8,7 +8,7 @@ import { fundido } from '../animation';
   animations: [fundido]
 })
 export class InicioComponent implements OnInit {
-  title = 'Bienvenido Al Inicio';
+  title = 'Inicio';
 
   ngOnInit(){
     console.log("inicio.component cargado !!");
