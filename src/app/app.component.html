@@ -20,11 +20,16 @@
 		      </button>
 		      <div class="collapse navbar-collapse" id="ftco-nav">
 		        <ul class="navbar-nav ml-auto mr-md-3">
-		        	<li class="nav-item active"><a href="#" class="nav-link">Inicio</a></li>
-		        	<li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
-		        	<li class="nav-item"><a href="#" class="nav-link">Producto</a></li>
-		        	<li class="nav-item"><a href="#" class="nav-link">Registrar</a></li>
-		          <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+		        	<li class="nav-item active"><a [routerLink]="['/Inicio']" [routerLinkActive]="['active']"
+						href="#" class="nav-link">Inicio</a></li>
+		        	<li class="nav-item"><a [routerLink]="['/producto']" [routerLinkActive]="['active']"
+						href="#" class="nav-link">Producto</a></li>
+		        	<li class="nav-item"><a [routerLink]="['/contacto']" [routerLinkActive]="['active']"
+						href="#" class="nav-link">Contacto</a></li>
+		        	<li class="nav-item"><a [routerLink]="['/registrar']" [routerLinkActive]="['active']"
+						href="#" class="nav-link">Registrar</a></li>
+		          <li class="nav-item"><a [routerLink]="['/login']"[routerLinkActive]="['active']"
+					href="#" class="nav-link">Login</a></li>
 		          <li class="dropdown nav-item d-md-flex align-items-center">
                 <a href="#" class="dropdown-toggle nav-link d-flex align-items-center justify-content-center icon-cart p-0" id="dropdown04" data-toggle="dropdown" aria-expanded="false">
                   <i class="fa fa-shopping-cart"></i>
