@@ -8194,6 +8194,7 @@
         top: 0;
         padding: 10px 15px; } }
     .ftco-navbar-light .navbar-brand {
+      font-family: 'Times New Roman', Times, serif;
       color: #000;
       text-transform: uppercase;
       font-weight: 700; }
