@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { routing, appRoutingProviders } from './app.routing';
 
 //nuevo modulo
+import { AdminModule } from './modules/home/admin/admin.module';
 
 //Componentes
 import { AppRoutingModule } from './app-routing.module';
@@ -30,7 +31,8 @@ import { LoginComponent } from './modules/home/components/login/login.component'
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    routing
+    routing,
+    AdminModule
     
     
   ],

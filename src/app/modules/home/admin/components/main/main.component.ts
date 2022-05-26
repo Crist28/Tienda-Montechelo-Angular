@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
-export class EditarComponent {
+export class MainComponent {
   title = 'Panel del administrador';
 }
