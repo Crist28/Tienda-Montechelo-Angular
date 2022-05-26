@@ -6,13 +6,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { routing, appRoutingProviders } from './app.routing';
 
 //nuevo modulo
-
+import { AdminModule } from './administrador/admin.module';
 
 //Componentes
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { ProductoComponent } from './components/producto/producto.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistrarComponent } from './components/registrar/registrar.component';
 
@@ -22,14 +23,16 @@ import { RegistrarComponent } from './components/registrar/registrar.component';
     InicioComponent,
     ContactoComponent,
     LoginComponent,
-    RegistrarComponent
+    RegistrarComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    routing
+    routing,
+    AdminModule
     
     
   ],
