@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 //import { HttpModule } from '@angular/http';
+import { routing, appRoutingProviders } from './app.routing';
+
+//nuevo modulo
 
 
 //Componentes
@@ -26,10 +29,13 @@ import { RegistrarComponent } from './components/registrar/registrar.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    routing
     
     
   ],
-  providers: [],
+  providers: [
+    appRoutingProviders
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
