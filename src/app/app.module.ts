@@ -6,16 +6,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { routing, appRoutingProviders } from './app.routing';
 
 //nuevo modulo
-import { AdminModule } from './administrador/admin.module';
 
 //Componentes
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InicioComponent } from './components/inicio/inicio.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
-import { ProductoComponent } from './components/producto/producto.component';
-import { LoginComponent } from './components/login/login.component';
-import { RegistrarComponent } from './components/registrar/registrar.component';
+import { InicioComponent } from './modules/home/components/inicio/inicio.component';
+import { ProductoComponent } from './modules/home/components/producto/producto.component';
+import { ContactoComponent } from './modules/home/components/contacto/contacto.component';
+import { RegistrarComponent } from './modules/home/components/registrar/registrar.component';
+import { LoginComponent } from './modules/home/components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +30,7 @@ import { RegistrarComponent } from './components/registrar/registrar.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    routing,
-    AdminModule
+    routing
     
     
   ],

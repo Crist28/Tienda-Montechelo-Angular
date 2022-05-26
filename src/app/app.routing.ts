@@ -1,11 +1,11 @@
 import { ModuleWithProviders, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { InicioComponent } from './components/inicio/inicio.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
-import { RegistrarComponent } from './components/registrar/registrar.component';
-import { LoginComponent } from './components/login/login.component';
-import { ProductoComponent } from './components/producto/producto.component';
+import { InicioComponent } from './modules/home/components/inicio/inicio.component';
+import { ProductoComponent } from './modules/home/components/producto/producto.component';
+import { ContactoComponent } from './modules/home/components/contacto/contacto.component';
+import { RegistrarComponent } from './modules/home/components/registrar/registrar.component';
+import { LoginComponent } from './modules/home/components/login/login.component';
 
 const appRoutes: Routes = [
     {path: '', component: InicioComponent},
