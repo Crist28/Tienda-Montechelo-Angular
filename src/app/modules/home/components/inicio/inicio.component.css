@@ -1,0 +1,27 @@
+h1{font-size: 35px;}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.container-1{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.center-1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
