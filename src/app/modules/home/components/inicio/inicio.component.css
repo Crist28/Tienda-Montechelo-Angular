@@ -1,9 +1,10 @@
-h1{font-size: 35px;}
+p.cua {font-size: 40px;}
 
 .contenedor{
   position: relative;
   display: inline-block;
   text-align: center;
+
 }
 
 .centrado{
@@ -11,6 +12,7 @@ h1{font-size: 35px;}
   top: 50%;
   left: 75%;
   transform: translate(-50%, -50%);
+
 }
 
 .container-1{
@@ -25,3 +27,68 @@ h1{font-size: 35px;}
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+body{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background:black;
+  }
+
+  /* .btn{
+    width: 100%;
+    padding: 5rem 30rem;
+    background:  rgb(245, 92, 22);
+    border: 0.1rem solid white;
+    cursor: pointer;
+    position: relative;
+    border-radius: .3rem;
+    overflow: hidden;
+
+  }
+
+  .btn::before{
+    content: 'informacion';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+
+
+  }
+  .btn::after{
+    content: 'Mas informacion';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+    opacity: 0;
+
+
+  }
+
+  .btn:hover::before{
+      transform: translate(-50%, -50%) scale(3);
+      opacity: 0 ;
+  } */
+
+
+
+
+  
