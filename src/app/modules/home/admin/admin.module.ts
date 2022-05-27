@@ -16,11 +16,10 @@ import { MainComponent } from "./components/main/main.component";
 
 @NgModule({
     declarations:[
-        ListaComponent,
+        MainComponent,
         AñadirComponent,
         EditarComponent,
-        MainComponent,
-        //SearchPipe
+        ListaComponent,
         
     ],
     imports:[
@@ -35,7 +34,7 @@ import { MainComponent } from "./components/main/main.component";
         AñadirComponent,
         EditarComponent
     ],
-    providers:[/*AdminGuard, UserService*/]
+    //providers:[AdminGuard, UserService]
 })
 
 export class AdminModule{}
