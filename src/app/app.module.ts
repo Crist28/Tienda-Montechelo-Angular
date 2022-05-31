@@ -16,6 +16,7 @@ import { ProductoComponent } from './modules/home/components/producto/producto.c
 import { ContactoComponent } from './modules/home/components/contacto/contacto.component';
 import { RegistrarComponent } from './modules/home/components/registrar/registrar.component';
 import { LoginComponent } from './modules/home/components/login/login.component';
+import { FooterComponent } from './modules/home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginComponent } from './modules/home/components/login/login.component'
     ContactoComponent,
     LoginComponent,
     RegistrarComponent,
-    ProductoComponent
+    ProductoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
